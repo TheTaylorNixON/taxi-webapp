@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic');
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+}
+
+#root {
+    height: 100%;
+}

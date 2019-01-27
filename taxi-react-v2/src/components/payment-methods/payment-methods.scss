@@ -1,0 +1,23 @@
+.item-test {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+.checkbox__flag {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: #f9fbfc;
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+    &.active {
+        background-color: #ffcd33;
+        border: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.menu-propfile {
+    display: block;
+}
+
+.menu-propfile__right {
+    display: inline-block;
+    & h4, p {
+        margin: 5px;
+    }
+    & p {
+        color: #9b9b9b;
+        font-size: 15px;
+    }
+}

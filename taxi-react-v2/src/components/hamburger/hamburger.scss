@@ -1,0 +1,46 @@
+.hamburger {
+    position: relative;
+    height: 20px;
+    width: 30px;
+    z-index: 99;
+    margin-left: 20px;
+}
+
+.stick-list {
+    :nth-child(1) {
+        top: 0;
+    }
+    :nth-child(2) {
+        top: 10px;
+    }
+    :nth-child(3) {
+        top: 20px;
+    }
+
+    // animation
+    &.active {
+        :first-child {
+            top: 10px;
+            transform: rotate(45deg);
+            transition: top .15s, transform .15s .15s;
+        }
+        :nth-child(2), :nth-child(3) {
+            top: 10px;
+            transform: rotate(-45deg);
+            transition: top .15s, transform .15s .15s;
+        }
+    }
+}
+
+// animation
+.stick-list__item {
+    background: #000;
+    height: 2px;
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+    opacity: 1;
+    width: 30px;
+    left: 0;
+    transition: top .15s .15s, transform .15s;
+}

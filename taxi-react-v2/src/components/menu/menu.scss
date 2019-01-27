@@ -1,0 +1,14 @@
+.menu {
+    position: absolute;
+    left: -65%;
+    padding: 80px 0 0 20px;
+    background: #fff;
+    width: 60%;
+    height: 100%;
+    z-index: 98;
+    transition: .5s;
+
+    &.active {
+        left: 0;
+    }
+}
